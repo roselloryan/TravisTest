@@ -1,5 +1,6 @@
-language: objective-c  #1
-osx_image: xcode10.1 #2
-xcode_project: TravisTest.xcodeproj #3
-xcode_scheme: TravisTestTests #4
-xcode_sdk: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch) #5
+language: swift
+os: osx
+osx_image: xcode10.1
+xcode_project: TravisTest.xcodeproj
+xcode_scheme: TravisTest
+xcode_sdk: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
