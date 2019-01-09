@@ -26,12 +26,12 @@ public extension Dictionary where Key == String, Value == Any {
   */
   public func safeString(key: String) -> String {
     //Is there a value for the key?
-//    if let item = self[key] {
-//      //Is that value a string?
-//      if let string = item as? String {
-//        return string
-//      }
-//    }
+    if let item = self[key] {
+      //Is that value a string?
+      if let string = item as? String {
+        return string
+      }
+    }
     
     //Fall-through case
     return ""
